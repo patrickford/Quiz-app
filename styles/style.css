@@ -1,7 +1,11 @@
+body {
+background-color:  green;
+}
+
 .container {
 
 display:  block;
 text-align:  center;
-background-color:  green;
+
 }
 
