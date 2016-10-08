@@ -3,24 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Quiz App</title>
-	 <link rel="stylesheet" href="styles/style.css">
-  <script type="text/javascript" src="js/app.js"></script>
+	<link rel="stylesheet" href="styles/style.css">
+	<script type="text/javascript" src="js/app.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="container">
 		<H1>Quiz App</H1>
-	<div class="intro">	
-		<button type="button">Start Quiz!</button>
-	</div>
-	<div class="temporary">
-	<div class="question">
-	<p>Question <span>  </span> of 10 </p>
-	<p>Score:  Correct   Incorrect</p>
-	<p>Question:</p>
-	<button type="button">Submit</button>
-	</div>
-	</div>
+		<div class="intro temporary"> 	
+			<button type="button">Start Quiz!</button>
+		</div>
+		<div class="correct temporary">
+			<H3>Correct!</H3>
+			<button type="button">Next Question</button>
+		<div class="question">
+			<p>Question <span> 1 </span> of 10 </p>
+			<h2>Which continent is Germany on?</h2>
+		<ul>
+			<li>A:  North America</li>
+			<li>B:  Europe</li>
+			<li>C:  Asia</li>
+			<li>D:  Africa</li>
+		</ul>
+			<button type="button">Submit</button>
+			<p>Score: 1 Correct  3 Incorrect</p>
+		</div>
+	</div> <!-- /.container -->
 
 </body>
 </html>

@@ -9,6 +9,9 @@ text-align:  center;
 
 }
 
+ul {
+	text-align:  left;
+}
 button {
     background-color: grey;
     border: none;
