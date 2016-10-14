@@ -22,7 +22,16 @@ button {
     display: inline-block;
     font-size: 16px;
 }
-
-.temporary {
+.question button {
+    display:  block;
+    width:  100%;
+    margin-bottom:  .5em;
+}
+.correct, 
+.incorrect,
+.complete,
+.question
+{
 	display:  none;
 }
+
