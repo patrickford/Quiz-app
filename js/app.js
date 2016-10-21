@@ -23,6 +23,9 @@ $(document).ready(function(){
   function showQuestion(index) {
     $('.question').append('<p> Question ' + index + ' of ' + questions.length + '</p>');
     var html = '<h2>' + questions[index].question + '<h2>';
+    for (var i=0; i<questions[index].answers.length; i++) {
+      html += '<button type="button">' + questions[index].answers[i] + '</button>'
+    }
     $('.question').append(html);
             
         // <h2>Which continent is Germany on?</h2>
